@@ -1,0 +1,241 @@
+---
+name: Kinetic Ledger
+colors:
+  surface: '#f8faf6'
+  surface-dim: '#d8dbd7'
+  surface-bright: '#f8faf6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f0'
+  surface-container: '#eceeeb'
+  surface-container-high: '#e7e9e5'
+  surface-container-highest: '#e1e3df'
+  on-surface: '#191c1a'
+  on-surface-variant: '#434846'
+  inverse-surface: '#2e312f'
+  inverse-on-surface: '#eff1ed'
+  outline: '#737875'
+  outline-variant: '#c3c8c4'
+  surface-tint: '#53615c'
+  primary: '#000705'
+  on-primary: '#ffffff'
+  primary-container: '#14211d'
+  on-primary-container: '#7b8984'
+  inverse-primary: '#bbcac3'
+  secondary: '#4d671a'
+  on-secondary: '#ffffff'
+  secondary-container: '#ceee91'
+  on-secondary-container: '#526d20'
+  tertiary: '#000603'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#03231a'
+  on-tertiary-container: '#6d8d80'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d7e6df'
+  primary-fixed-dim: '#bbcac3'
+  on-primary-fixed: '#111e1a'
+  on-primary-fixed-variant: '#3c4a45'
+  secondary-fixed: '#ceee91'
+  secondary-fixed-dim: '#b2d178'
+  on-secondary-fixed: '#131f00'
+  on-secondary-fixed-variant: '#364e00'
+  tertiary-fixed: '#c8eadb'
+  tertiary-fixed-dim: '#accebf'
+  on-tertiary-fixed: '#012017'
+  on-tertiary-fixed-variant: '#2e4d42'
+  background: '#f8faf6'
+  on-background: '#191c1a'
+  surface-variant: '#e1e3df'
+typography:
+  display:
+    fontFamily: Manrope
+    fontSize: 2.75rem
+    fontWeight: '700'
+    lineHeight: 3.25rem
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Manrope
+    fontSize: 2rem
+    fontWeight: '600'
+    lineHeight: 2.5rem
+    letterSpacing: -0.025em
+  headline-lg-mobile:
+    fontFamily: Manrope
+    fontSize: 1.5rem
+    fontWeight: '600'
+    lineHeight: 2rem
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Manrope
+    fontSize: 1.375rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.02em
+  headline-sm:
+    fontFamily: Manrope
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: -0.015em
+  body-lg:
+    fontFamily: DM Sans
+    fontSize: 1.0625rem
+    fontWeight: '400'
+    lineHeight: 1.625rem
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: DM Sans
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.4375rem
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: DM Sans
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+    letterSpacing: 0.005em
+  label-lg:
+    fontFamily: Manrope
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Manrope
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.025em
+  label-sm:
+    fontFamily: Manrope
+    fontSize: 0.6875rem
+    fontWeight: '700'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+  numeric-metric:
+    fontFamily: Manrope
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.5rem
+    letterSpacing: -0.03em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system blends Swiss-inspired information architecture with high-utility enterprise SaaS ergonomics. Designed for multi-channel logistics operators, inventory analysts, and supply-chain directors, it prioritizes legibility, dense metric presentation, and low-latency interaction.
+
+### Visual Aesthetic & Philosophy
+- **Editorial Precision:** Clean hairline rules, proportional spacing, and typographic weight contrast replace decorative chrome. Layouts mimic bespoke financial broadsheets and technical ledgers.
+- **Controlled Contrast:** A high-end dark structural frame anchors the interface, offset by paper-toned work surfaces that reduce optic fatigue during extended operational monitoring.
+- **Targeted Chromatic Accents:** Chromatic energy is reserved strictly for functional feedback—metrics, alerts, status flags, and primary triggers—never purely decorative washes.
+- **Ergonomic Tactility:** Subtle transitions (120ms–150ms cubic-bezier), hairline borders, and shallow spatial lifts deliver responsiveness without distracting from data comprehension.
+
+## Colors
+
+The palette balances authoritative deep forest tones with crisp, luminescent signals designed for instant scanning across complex data grids.
+
+### Palette Architecture
+- **Primary / Structural Anchor (`#14211D`):** Applied to persistent navigation, high-level headers, and key interactive commands. Communicates permanence and executive control.
+- **Primary Accent / Action (`#C7E78B`):** An electric, acid-tinged lime reserved for primary CTA states, active sidebar markers, micro-progress bars, and positive delta values. It ensures critical calls-to-action immediately command attention.
+- **System Signals & Indicators:**
+  - **Healthy / Inflow (`#B6D8C9`):** Soft electric sage denoting incoming stock, operational efficiency, and safe thresholds.
+  - **Critical Alert / Depletion (`#E9A18D`):** Warm coral flagging low-stock warnings, system anomalies, and destructive triggers.
+  - **Categorical & Analytical Segments (`#C9C2E6`):** Muted lavender allocated to secondary chart vectors, batch breakdowns, and structural metadata tags.
+- **Neutral Canvas Hierarchy:**
+  - **Base Canvas (`#F5F7F3`):** Neutral paper ground minimizing glare across long operational shifts.
+  - **Surface Container (`#FFFFFF`):** High-clarity white for data cards, modal dialogues, and tabular surfaces.
+  - **Structural Division (`#E2E8E4`):** Crisp 1px boundary rules for borders, table rows, and grid axes.
+  - **Typography Ink (`#17211E` Primary / `#7C8982` Secondary):** High-contrast contrast levels meeting strict WCAG AAA guidelines for text-dense environments.
+
+## Typography
+
+The typography pairs **Manrope** for authoritative structural framing and quantitative displays with **DM Sans** for sustained tabular and analytical reading.
+
+### Rules & Application
+- **Tabular Numerics:** Enable `font-variant-numeric: tabular-nums lining-nums` across all `Manrope` instances within data tables, KPI displays, and ledger rows to guarantee horizontal alignment.
+- **Metric Presentation:** Use `numeric-metric` for top-level inventory summaries. Pair with an adjacent `label-sm` rendered in uppercase for categorical clarity.
+- **Density Management:** For screen viewports under 768px, swap `headline-lg` with `headline-lg-mobile` to maintain viewport economy and avoid unwieldy string wrapping.
+- **Body Rhythm:** Never set line length wider than 65 characters in operational notes or logs. Default table content uses `body-sm` to maintain vertical compactness without sacrificing baseline rhythm.
+
+## Layout & Spacing
+
+The spatial architecture employs an 8-point baseline rhythm combined with a Swiss-inspired fluid 12-column grid.
+
+### Layout System
+- **Desktop (≥ 1280px):** 12-column layout with a fixed 260px primary navigation rail. Grid columns use `gutter-desktop` (1.5rem / 24px) with canvas margins of `margin-desktop` (2rem / 32px).
+- **Tablet (768px – 1279px):** 8-column layout. The rail collapses to an 80px icon navigation bar. Gutter drops to `gutter` (1rem / 16px), and margins compress to `margin` (1rem / 16px).
+- **Mobile (< 768px):** 4-column single-stream stack with drawer-anchored navigation. Edge margins locked to `margin` (1rem / 16px).
+
+### Spacing Principles
+- **Interior Component Rhythm:** Table cells use `space-sm` vertically and `space-md` horizontally. Metric card interiors maintain a strict `space-lg` padding to isolate figures visually.
+- **Section Breaks:** Major analytical card blocks separate by `space-xl`. Grouped ledger filters and toolbars use `space-sm` gaps for unified control groupings.
+
+## Elevation & Depth
+
+This system avoids heavy drop shadows, relying instead on structural layering, tonal surfaces, and low-contrast perimeter rules to create hierarchy.
+
+### Depth Architecture
+- **Layer 0 (Canvas Base):** Surface tint `#F5F7F3`. No shadow, completely non-interactive ground.
+- **Layer 1 (Cards, Metric Containers, Grids):** Surface `#FFFFFF` bordered by a 1px continuous rule `#E2E8E4`. Supported by an ultra-diffused shadow: `0 1px 3px rgba(20, 33, 29, 0.04), 0 4px 12px rgba(20, 33, 29, 0.02)`.
+- **Layer 2 (Dropdowns, Popovers, Floating Action Trays):** Surface `#FFFFFF`, border 1px solid `#E2E8E4`, elevated via: `0 4px 6px -1px rgba(20, 33, 29, 0.06), 0 10px 24px -2px rgba(20, 33, 29, 0.08)`.
+- **Layer 3 (Modals, Overlays):** Surface `#FFFFFF`, boundary border 1px solid `#E2E8E4`, cast shadow: `0 20px 35px -4px rgba(20, 33, 29, 0.12), 0 8px 16px -4px rgba(20, 33, 29, 0.04)`. Accompanied by a `#14211D` backdrop overlay at 60% opacity with a `2px` gaussian backdrop filter.
+- **Active Navigation Elements:** Structural sidebar items sit on `#14211D` without ambient elevation; selected items are carved out via `#C7E78B` left-edge tabs (3px) and high-contrast text shifts.
+
+## Shapes
+
+The geometric framework balances technical rigor with modern ergonomics through calibrated corner radii.
+
+### Shape Tokens & Radius Scale
+- **Base Surfaces (`rounded-lg` / 1rem):** All metric cards, data visualization containers, slide-out panels, and data tables use 1rem (16px) corners.
+- **Controls & Form Elements (`rounded` / 0.5rem):** Standard input fields, search wrappers, filter dropdowns, and button containers use 0.5rem (8px) corners to preserve a crisp footprint within dense layouts.
+- **Tags, Pills, & Badges (`rounded-full` / 9999px):** Operational tags (e.g., SKU category, batch status, inventory movement indicators) use fully rounded pill shapes to distinguish them from actionable buttons and cards.
+- **Icon Buttons:** Small interactive iconography (18–20px Lucide icons) sits within a 36x36px bounding container with 0.5rem (8px) rounding.
+
+## Components
+
+### Buttons
+- **Primary CTA:** Background `#C7E78B`, text `#14211D`, typography `label-lg`. No border. Hover state transitions to `#B8DC7A`. Active scale down to `0.98`. Focus ring: 2px solid `#14211D` with a 2px offset.
+- **Secondary / Technical Action:** Background `#14211D`, text `#FFFFFF`, typography `label-lg`. Hover brings background to `#23332D`.
+- **Tertiary / Outlined:** Background `transparent`, border 1px solid `#E2E8E4`, text `#17211E`. Hover triggers background `#F5F7F3`.
+
+### Chips & Status Badges
+- **General Rules:** Height locked to 24px, pill-shaped (`rounded-full`), padding `0 10px`, typography `label-sm` (uppercase).
+- **In-Stock / Healthy:** Background `#B6D8C9` at 30% alpha, text `#0E4331`, indicator dot 6px solid `#28815F`.
+- **Low Stock / Reorder Warning:** Background `#E9A18D` at 25% alpha, text `#732B1A`, indicator dot 6px solid `#C24C2C`.
+- **Category Pill:** Background `#C9C2E6` at 30% alpha, text `#362C5C`.
+
+### Cards & Ledger Blocks
+- Background `#FFFFFF`, border 1px solid `#E2E8E4`, `rounded-lg` (16px), interior padding `space-lg` (24px).
+- **Header Structure:** Flex layout with `space-between` alignment; title rendered in `headline-sm` with action menus pinned right.
+
+### Input Fields & Controls
+- **Text & Search Inputs:** Height 40px, background `#FFFFFF`, border 1px solid `#E2E8E4`, radius `rounded` (8px), padding `0 12px`, typography `body-md`. Focus state replaces border with `#14211D` and a 1px outer ring in `#14211D`.
+- **Checkboxes & Radios:** 18x18px bounding box, border 1.5px solid `#7C8982`, radius 4px (checkbox) or circular (radio). Checked state fills `#14211D` with `#C7E78B` checkmark/indicator.
+
+### Data Tables & Lists
+- **Header Rows:** Background `#F5F7F3`, typography `label-md` in uppercase, height 40px, bottom border 1px solid `#E2E8E4`.
+- **Data Rows:** Background `#FFFFFF`, height 48px, horizontal cell padding `space-md`, border-bottom 1px solid `#E2E8E4`. Hover row state: `#F9FAF7`. Monospaced tabular numerals enabled.
+
+### Inventory-Specific: Metric Gauges & Micro Charts
+- **Bar / Progress Metrics:** Track height 6px, radius 3px, track background `#E2E8E4`. Fill uses `#C7E78B` (normal levels) transitioning to `#E9A18D` below min threshold.
+- **Sparklines:** Hairline 1.5px stroke width. Primary vector colored in `#14211D` with subtle gradient falloff into `#FFFFFF` at zero baseline.

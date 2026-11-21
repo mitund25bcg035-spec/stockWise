@@ -1,0 +1,6 @@
+{
+  "name": "StockWise",
+  "description": "Inventory Management & Business Intelligence Platform for modern small and medium businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
